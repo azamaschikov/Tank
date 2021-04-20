@@ -1,0 +1,24 @@
+phantom:
+  address: example.com:443
+  ssl: true
+  ammofile: bullets
+  ammo_type: uri
+  load_profile:
+    load_type: rps
+    schedule: step(10, 100, 5, 5m)
+  header_http: "1.1"
+  headers:
+    - "[Host: example.com]"
+    - "[Accept-Encoding: gzip, deflate]"
+
+console:
+  enabled: false
+
+telegraf:
+  enabled: false
+
+influx:
+  enabled: true
+  address: influx
+  database: metrics
+  tank_tag: tank
