@@ -5,7 +5,7 @@
 1. Clone the repository to your localhost or your EC2:
 
 ```
-$ git clone https://github.com/azamaschikov/Tank.git && cd Tank`
+$ git clone https://github.com/azamaschikov/Tank.git && cd Tank
 ```
 
 2. Setup target host for Tank:
