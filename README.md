@@ -27,8 +27,6 @@ headers:
 - "[Accept-Encoding: gzip, deflate]"
 ```
 
-> For first run you should change only address and headers 
-
 2. Setup bullets for Tank:
 
 ```
@@ -46,9 +44,7 @@ $ vim yandex-tank/bullets
 
 `$ source docker-start.sh`
 
-4. Open Grafana at link http://localhost:3000.
-
-> But if you use EC2, that you should open a real IP-address rather localhost
+4. Open Grafana at link — http://localhost:3000 (or real IP-address rather localhost).
 
 ![](Picture-1.png)
 ![](Picture-2.png)
