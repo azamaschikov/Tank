@@ -48,3 +48,4 @@ $ vim yandex-tank/bullets
 
 ![](Picture-1.png)
 ![](Picture-2.png)
+![](Picture-3.png)
