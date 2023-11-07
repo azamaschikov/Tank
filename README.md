@@ -42,7 +42,7 @@ $ vim yandex-tank/bullets
 
 3. Start Yandex.Tank:
 
-`$ source docker-start.sh`
+```$ source docker-start.sh```
 
 4. Open Grafana at link — http://localhost:3000 (or real IP-address rather localhost).
 
